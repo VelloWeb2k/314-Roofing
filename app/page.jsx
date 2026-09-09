@@ -1,0 +1,9 @@
+"use client";
+import {ArrowUpRight,ArrowRight,ShieldCheck,ScanLine,Leaf,Plus,CloudLightning,Shield,Cpu} from 'lucide-react';
+export default function Page(){return <main className="314">
+<nav><b>__LOGO__</b><div><a href="#story">Story</a><a href="#services">Services</a><a href="#proof">Proof</a></div><a className="cta" href="#contact">Get started ↗</a></nav>
+<section className="hero"><div><small>ROOF INTELLIGENCE / HOUSTON</small><h1>Don’t take our word for it. See the proof.</h1><p>Technology-first inspections, visual evidence and transparent recommendations.</p><a className="cta" href="#contact">Request an inspection <ArrowRight/></a></div><figure><img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1800&q=85"/><figcaption>12+ inspection tools</figcaption></figure></section>
+<section className="intro" id="story"><small>WHY THIS BRAND</small><h2>Inspection should be evidence, not opinion.</h2><p>Technology-first inspections, visual evidence and transparent recommendations.</p></section>
+<section className="facts" id="proof"><b>12+ inspection tools</b><b>1,000+ 5★ reviews</b><b>Data-backed recommendations</b></section>
+<section className="services" id="services"><small>SERVICES</small><h2>Built around the real job.</h2><div>{['Roof Repair','Roof Replacement','Storm Damage','Inspections','Commercial Roofing'].map((x,i)=><a href="#contact"><span>0{i+1}</span><strong>{x}</strong><ArrowUpRight/></a>)}</div></section>
+<section className="contact" id="contact"><small>START HERE</small><h2>Let’s make the next step simple.</h2><a className="cta" href="mailto:sales@314roofing.com">Contact the team <ArrowUpRight/></a><p>sales@314roofing.com · (832) 688-8363</p></section><footer>Website concept · not affiliated with 314 Roofing</footer></main>}
